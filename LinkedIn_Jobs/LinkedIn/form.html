@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title></title>
+        <!-- <style> -->
+            <!-- } -->
+        
+        
+        <!-- </style> -->
+        <link href='https://fonts.googleapis.com/css?family=Jua' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="main">
+                <h1 class="header">An End To Your IT Job Search</h1>
+        </div>
+        <div class="container">
+            <form action = "/jobs" method = "get" target="_blank">
+            <h1>Job</h1>
+            <input type="text" name="job" placeholder="Which job are you looking for ..."><br><br><br><br>
+            <h1>Location</h1>
+            <input type="text" name="location" placeholder="Where do you want to work ..."><br><br>
+            <input type="submit" value="Search"><br>
+            </form>
+        </div>
+        
+    </body>
+    <style>
+        *{
+            margin: 0px;
+        }
+    
+        body{
+            background-image: url("https://images5.alphacoders.com/302/302485.jpg")
+        }
+        h1{
+            text-align: center;
+            color:#48a1eb;
+
+        }
+        h1[class=header]{
+            color: rgb(34, 17, 90);
+        }
+        .main{
+            position: right;
+            margin-top: 40px;
+            margin-left: 1300px;
+            height: auto;
+            width: 500px;
+            background: rgba(61, 13, 116, 0.603);
+            padding: 10px;
+            font-family: Righteous;  
+            border-radius: 10px
+
+        }
+        .container{
+            position: absolute;
+            margin: auto;
+            margin-top: 100px;
+            margin-left: 510px;
+            /* align-content: center */
+            /* margin:auto; */
+            height:320px;
+            width:700px;
+            background:rgb(9, 22, 58,0.8);
+            padding:20px;
+            font-family:Jua;  
+            border-radius:50px
+        }
+        .container:hover{
+             border: 2px solid rgb(61, 150, 235);  
+        }
+        input[type=text]{
+            margin-bottom:5px;
+            background:none;
+            padding:10px;
+            width:100%;
+            height:auto;
+            /* border-radius:10px; */
+            border-style:none;
+            color:rgb(30, 144, 255);
+            font-size:20px;
+            font-family:Architects Daughter;
+            }
+
+        input[type=text]:hover{
+            border-bottom: 3px solid rgb(51, 196, 240);
+        }
+        input[type=submit]{
+            padding:10px;
+            font-size:20px;
+            width:120px;
+            border-radius:25px;
+            border-style:none;
+            background-color:rgb(72, 161, 235);
+        }
+        input[type=submit]:hover{
+            background:white;
+        }
+        ::placeholder{
+            /* color:red; */
+            color:dodgerblue;
+            font-size:20px;
+        }
+    </style>
+</html>
